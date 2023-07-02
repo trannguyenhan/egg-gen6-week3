@@ -1,5 +1,7 @@
 import ex1.Shape;
 import ex1.Triangle;
+import ex2.Book;
+import ex2.ForeignBook;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,5 +11,7 @@ public class Main {
 
         // ex2
         // write your console application
+        Book book = new ForeignBook();
+        System.out.println(book.calcMoney());
     }
 }

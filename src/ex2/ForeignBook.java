@@ -5,6 +5,11 @@ import java.util.Date;
 public class ForeignBook extends Book{
     public String language;
 
+    public ForeignBook(){
+        super();
+        this.language = "ENG";
+    }
+
     public ForeignBook(String language) {
         super();
         this.language = language;
